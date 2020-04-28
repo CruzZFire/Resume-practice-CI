@@ -30,8 +30,9 @@ footer {
 .profile--pic {
   border: 3px solid goldenrod;
   border-radius: 40%;
-  margin: 5px;
+  margin: 1%;
   background-color: whitesmoke;
+  padding-bottom: 10px;
 }
 
 .header--full {
@@ -43,16 +44,21 @@ footer {
 
 .header--left {
   text-align: center;
+  border: 1px solid goldenrod;
+  max-height: 260px;
+  padding-bottom: 5px;
 }
 
 .header--right {
   text-align: center;
+  border: 1px solid goldenrod;
 }
 
 .header--title {
   padding-top: 10px;
   padding-bottom: 10px;
   height: 50%;
+  margin: auto 0;
 }
 
 .header--title h1 {
@@ -62,15 +68,23 @@ footer {
 }
 
 .header--nav {
-  padding-top: 10px;
-  padding-bottom: 10px;
   height: 50%;
 }
 
-.header--nav h2 {
+.header--nav div {
+  border: 1px solid goldenrod;
+  display: inline-block;
+  position: relative;
+}
+  
+.header--nav span {
   font-weight: 600;
-  font-size: 250%;
+  font-size: 210%;
   letter-spacing: 2px;
+  /*position: absolute;
+  bottom: 1%;
+  right: 1%;
+  left: 1%;*/
 }
 
 /* Main section styles */

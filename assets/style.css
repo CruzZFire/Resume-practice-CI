@@ -1,4 +1,89 @@
 body {
+  font-family: 'Manrope', sans-serif;
+}
+
+header {
   margin: 0;
   padding: 0;
+}
+
+.main--content {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+#title {
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+/* Header styles */
+
+.profile--pic {
+  display: inline-block;
+  position: relative;
+  align-self: center;
+}
+
+.header--full {
+  min-height: 250px;
+}
+
+.header--left {
+  background-color: red;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+.header--right {
+  background-color: green;
+  min-height: 150px;
+}
+
+.header--tittle {
+ text-align: center;
+}
+
+/* Main styles */
+
+.main--content {
+  min-height: 150px;}
+
+.main--left {
+  background-color: bisque;
+
+}
+
+.main--right {
+  background-color: brown;
+}
+
+
+/* Footer styles */
+
+.footer--full {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+}
+
+.footer--left {
+  background-color: gainsboro;
+  text-align: left;
+  vertical-align: ;
+  font-size: 14px;
+}
+
+.footer--middle {
+  background-color: gray;
+}
+
+.footer--right {
+  background-color: yellow;
 }

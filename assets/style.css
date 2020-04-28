@@ -1,15 +1,19 @@
 body {
   font-family: 'Manrope', sans-serif;
+  height: 100vh;
+  background-color: beige;
 }
 
 header {
   margin: 0;
   padding: 0;
+  min-height: 250px;
 }
 
 .main--content {
   margin: 0;
   padding: 0;
+  min-height: 300px;
 }
 
 footer {
@@ -24,35 +28,56 @@ footer {
 /* Header styles */
 
 .profile--pic {
-  display: inline-block;
-  position: relative;
-  align-self: center;
+  border: 3px solid goldenrod;
+  border-radius: 40%;
+  margin: 5px;
+  background-color: whitesmoke;
 }
 
 .header--full {
-  min-height: 250px;
+  background-image: url(gold%20pattern.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid goldenrod;
 }
 
 .header--left {
-  background-color: red;
-  display: flex;
-  align-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .header--right {
-  background-color: green;
-  min-height: 150px;
+  text-align: center;
 }
 
-.header--tittle {
- text-align: center;
+.header--title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50%;
 }
 
-/* Main styles */
+.header--title h1 {
+  font-weight: 900;
+  font-size: 350%;
+  letter-spacing: 3px;
+}
+
+.header--nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 50%;
+}
+
+.header--nav h2 {
+  font-weight: 600;
+  font-size: 250%;
+  letter-spacing: 2px;
+}
+
+/* Main section styles */
 
 .main--content {
-  min-height: 150px;}
+
+}
 
 .main--left {
   background-color: bisque;
@@ -76,8 +101,8 @@ footer {
 .footer--left {
   background-color: gainsboro;
   text-align: left;
-  vertical-align: ;
   font-size: 14px;
+  
 }
 
 .footer--middle {

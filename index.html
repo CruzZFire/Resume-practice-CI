@@ -6,6 +6,7 @@
     <title>Resume | Fake someone</title>
     <!-- Choosen google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Manrope&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/057f5beaf7.js" crossorigin="anonymous"></script>    
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Own custom CSS -->
@@ -14,25 +15,23 @@
   
   <body>
     <header>
-      <div class="container-fluid">
-        <div class="row header--full">
+        <div class="row no-gutters header--full">
           <div class="col-12 col-md-4 header--left">
-            <img class="profile--pic" src="assets/cartoon.png" alt="portrait" width="250px" height="98%">
+            <img class="profile--pic" src="assets/cartoon.png" alt="portrait" width="250px" height="95%">
           </div>
-          <div class="col-12 col-md-8 header--right">
-            <div class="row header--title">
+          <div class="col-md-8 header--right">
+            <div class="row no-gutters header--title">
               <div class="col-12">
-                <h1>Fake Individual</h1>
+                <h1 id="title">Fake Individual</h1>
               </div>
             </div>
-            <div id="title" class="row header--nav">
-              <div class="col-6 col-md-3"><span>Home</span></div>
-              <div class="col-6 col-md-3"><span>Skills</span></div>
-              <div class="col-6 col-md-3"><span>History</span></div>
-              <div class="col-6 col-md-3"><span>Contact/CV</span></div>
+            <div id="title" class="row no-gutters header--nav">
+              <div class="col-6 col-sm-3"><i class="fas fa-home"></i><span>Home</span></div>
+              <div class="col-6 col-sm-3"><i class="fas fa-dumbbell"></i><span>Skills</span></div>
+              <div class="col-6 col-sm-3"><i class="fas fa-history"></i><span>History</span></div>
+              <div class="col-6 col-sm-3"><i class="far fa-id-card"></i><span>Contact</span></div>
             </div>
           </div>
-        </div>
       </div>
     </header>
     
@@ -50,11 +49,11 @@
     </div>
     
     <footer>
-      <div class="container-fluid">
+      <div class="container">
         <div class="row footer--full">
-          <div class="col col-md-4 footer--left">Copyright</div>
-          <div class="col col-md-4 footer--middle">Download Link/Icon</div>
-          <div class="col col-md-4 footer--right">SSNN Icons</div>
+          <div class="col col-md-3 footer--left"><p><i class="far fa-copyright"></i> All rights reserved</p></div>
+          <div class="col col-md-6 footer--middle d-none d-sm-block"><p>Download the complete CV in .pdf<i class="fas fa-download"></i></p></div>
+          <div class="col col-md-3 footer--right"><p><i class="fab fa-twitter-square"></i><i class="fab fa-google-plus-square"></i><i class="fab fa-facebook-square"></i><i class="fab fa-whatsapp-square"></i></p></div>
         </div>
       </div>
     </footer>

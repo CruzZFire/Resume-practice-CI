@@ -1,6 +1,5 @@
 body {
   font-family: 'Manrope', sans-serif;
-  height: 100vh;
   background-color: beige;
 }
 
@@ -30,61 +29,75 @@ footer {
 .profile--pic {
   border: 3px solid goldenrod;
   border-radius: 40%;
-  margin: 1%;
+  margin: 0 auto;
   background-color: whitesmoke;
-  padding-bottom: 10px;
 }
 
 .header--full {
   background-image: url(gold%20pattern.png);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-position: center;
   background-size: cover;
   border-bottom: 2px solid goldenrod;
 }
 
 .header--left {
   text-align: center;
-  border: 1px solid goldenrod;
   max-height: 260px;
-  padding-bottom: 5px;
+  padding: 10px;
+  border-top: 2px solid goldenrod;
 }
 
 .header--right {
   text-align: center;
-  border: 1px solid goldenrod;
+  border: 2px solid goldenrod;
 }
 
 .header--title {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  height: 50%;
-  margin: auto 0;
+  padding: 10px 0;
+  height: 160px;
+  margin: 0;
+  display: table;
 }
 
 .header--title h1 {
+  margin-left: 10px;
+  margin-right: 10px;
   font-weight: 900;
-  font-size: 350%;
+  font-size: 450%;
   letter-spacing: 3px;
 }
 
 .header--nav {
-  height: 50%;
+  height: 100px;
+  width: 100%;
+  display: table;
 }
 
 .header--nav div {
-  border: 1px solid goldenrod;
+  border: 1.5px solid goldenrod;
   display: inline-block;
-  position: relative;
+  height: 100px;
+}
+
+.header--nav div:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+  transition-delay: 0.1s;
+  color: floralwhite;
 }
   
-.header--nav span {
+.header--nav div span {
   font-weight: 600;
-  font-size: 210%;
+  font-size: 27px;
+  padding: 10px 0 2px 0;
   letter-spacing: 2px;
-  /*position: absolute;
-  bottom: 1%;
-  right: 1%;
-  left: 1%;*/
+  display: block;
+}
+
+.header--nav i {
+  display: block;
+  padding: 15px 0 2px 0;
+  font-size: 27px;
 }
 
 /* Main section styles */
@@ -108,21 +121,52 @@ footer {
 .footer--full {
   position: fixed;
   bottom: 0;
+  left: 0;
   width: 100%;
+  margin: 0;
+  background-color: darkslategray;
   height: 30px;
 }
 
 .footer--left {
-  background-color: gainsboro;
   text-align: left;
-  font-size: 14px;
-  
+  font-size: 10px;
+}
+
+.footer--left p {
+  padding-top: 10px;
+  margin-left: 20px;
+  color: floralwhite;
 }
 
 .footer--middle {
-  background-color: gray;
+  text-align: center;
+  font-size: 15px;
+  padding-top: 5px;
+  color: floralwhite;
+  font-weight: 600;
+}
+
+.footer--middle i {
+  padding-left: 10px;
+}
+
+.footer--middle i:hover {
+  color: goldenrod;
+  transform: scale(1.2);
 }
 
 .footer--right {
-  background-color: yellow;
+  text-align: right;
+  font-size: 20px;
+}
+
+.footer--right p i{
+  color: floralwhite;
+  padding-right: 20px;
+}
+
+.footer--right p i:hover {
+  color: goldenrod;
+  transform: scale(1.2);
 }

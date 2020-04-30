@@ -6,13 +6,13 @@ body {
 header {
   margin: 0;
   padding: 0;
-  min-height: 250px;
+  min-height: 33%;
 }
 
 .main--content {
   margin: 0;
   padding: 0;
-  height: 65vh;
+  height: 66%;
 }
 
 footer {
@@ -103,14 +103,13 @@ footer {
 /* Main section styles */
 
 .main--content {
-  background-color: red;
+  background-color: lightgoldenrodyellow;
 }
 
 .main--left {
   height: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: bisque;
 }
 
 .main--left div {
@@ -123,34 +122,57 @@ footer {
   display: block;
 }
 
+.main--left h3::before {
+  
+}
+
 .main--left hr {
   height: 2px;
   margin: 0;
   padding: 0;
   width: 100%;
   display: block;
-  color: rgba(0,0,0,0.1);
+  color: lightgoldenrodyellow;
+  border: none;
 }
 
 .main--left h4 {
-  margin: 10px 0 10px 10px;
+  margin: 10px 0 30px 10px;
   display: block;
 }
 
 .main--right {
-  height: 100%;
-  background-color: brown;
+  min-height: 100%;
+  background-color: burlywood;
+  text-align: center;
+  padding: 0;
 }
 
+.main--right h2 {
+  font-size: 300%;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.main--right div {
+  padding: 0;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 20px;}
+
+#feature {
+  display: inline-block;
+  min-height: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px dotted lightgoldenrodyellow;
+}
 
 /* Footer styles */
 
 #footer-holder {
   height: 30px;
-  display: block;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  z-index: -1;
 }
 
 .footer--full {
